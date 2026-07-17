@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: aliceblue;
+    line-height: 1.8;
+}
+
+section{
+    padding: 30px 8%;
+}
+
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 30px 8%;
+    box-shadow: 0 0 15px blueviolet;
+    position: sticky;
+    width: 100%;
+    top: 0;
+}
+
+.nav-links{
+    display: flex;
+    gap: 30px;
+}
+
+li a{
+    color: blueviolet;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+span{
+    color: blueviolet;
+}
+
+#hero-card{
+    flex: 1;
+}
+
+.hero-img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 2px solid black;
+    box-shadow: 0 0 15 blueviolet;
+}
+.right{
+    justify-content: center;
+    display: flex;
+}
+
+h2, p{
+    margin-bottom: 40px;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-evenly;  
+    flex-wrap: wrap;
+    gap: 30px;
+    position: relative;
+    margin-bottom: 500px;
+}
+
+.card{
+    width: 400px;
+    height: 150px;
+    border: 2px solid rgb(14, 1, 26);
+    box-shadow: 0 0 15px blueviolet;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+
+.project{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards{
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 0px 30px;
+    box-shadow: 0 0 10px blueviolet;
+    align-content: center;
+    text-align: center;
+    line-height: 3.8;
+    
+}
+
+button{
+    background-color: blueviolet;
+    border: 1px solid rgb(20, 12, 27);
+    box-shadow: 0 0 30px blueviolet;
+    border-radius: 30px;
+    padding: 8px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 5%;
+    box-shadow: 0 0 15px blueviolet;
+    line-height: 0;
+}
